@@ -1,0 +1,37 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore environment files (if using virtual environments)
+venv/
+.env
+*.venv
+*.env
+
+# Ignore editor and OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore large output files (optional)
+*.log
+*.out
+*.dat
+
+# Ignore any local PDFs that are not part of the repository
+*.pdf
+!motivation_letter.pdf
+!CV.pdf
+
+# Ignore cache files
+.cache/
